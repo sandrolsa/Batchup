@@ -1,0 +1,15 @@
+C:\DEV\pessoal\projetos\Batchup\bin\Debug\Batchup.exe.config
+C:\DEV\pessoal\projetos\Batchup\bin\Debug\Batchup.exe
+C:\DEV\pessoal\projetos\Batchup\bin\Debug\Batchup.pdb
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.csproj.AssemblyReference.cache
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Properties.Resources.resources
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.csproj.GenerateResource.cache
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.csproj.CoreCompileInputs.cache
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.exe
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.pdb
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Interface.FrmBackup.resources
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Interface.FrmPrincipal.resources
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Interface.FrmConexao.resources
+C:\DEV\pessoal\projetos\Batchup\bin\Debug\Guna.UI2.dll
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.csproj.Up2Date
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.exe.config
