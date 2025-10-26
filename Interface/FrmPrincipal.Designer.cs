@@ -28,21 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.pnlTitulo = new System.Windows.Forms.Panel();
-            this.icoTitle = new System.Windows.Forms.PictureBox();
             this.lblSubTitle = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.pnlButoes = new System.Windows.Forms.Panel();
+            this.pnlRodape = new System.Windows.Forms.Panel();
+            this.lblNome = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnCriar = new Guna.UI2.WinForms.Guna2Button();
             this.btnExcluir = new Guna.UI2.WinForms.Guna2Button();
             this.btnAgendar = new Guna.UI2.WinForms.Guna2Button();
-            this.pnlRodape = new System.Windows.Forms.Panel();
-            this.lblNome = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.icoTitle = new System.Windows.Forms.PictureBox();
+            this.guna2ContainerControl1 = new Guna.UI2.WinForms.Guna2ContainerControl();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.dragPrincipal = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.pnlTitulo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.icoTitle)).BeginInit();
             this.pnlButoes.SuspendLayout();
             this.pnlRodape.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.icoTitle)).BeginInit();
+            this.guna2ContainerControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlTitulo
@@ -50,20 +57,10 @@
             this.pnlTitulo.Controls.Add(this.icoTitle);
             this.pnlTitulo.Controls.Add(this.lblSubTitle);
             this.pnlTitulo.Controls.Add(this.lblTitle);
-            this.pnlTitulo.Location = new System.Drawing.Point(12, 12);
+            this.pnlTitulo.Location = new System.Drawing.Point(12, 56);
             this.pnlTitulo.Name = "pnlTitulo";
-            this.pnlTitulo.Size = new System.Drawing.Size(528, 148);
+            this.pnlTitulo.Size = new System.Drawing.Size(528, 133);
             this.pnlTitulo.TabIndex = 0;
-            // 
-            // icoTitle
-            // 
-            this.icoTitle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("icoTitle.BackgroundImage")));
-            this.icoTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.icoTitle.Location = new System.Drawing.Point(236, 12);
-            this.icoTitle.Name = "icoTitle";
-            this.icoTitle.Size = new System.Drawing.Size(56, 56);
-            this.icoTitle.TabIndex = 2;
-            this.icoTitle.TabStop = false;
             // 
             // lblSubTitle
             // 
@@ -93,10 +90,31 @@
             this.pnlButoes.Controls.Add(this.btnExcluir);
             this.pnlButoes.Controls.Add(this.btnAgendar);
             this.pnlButoes.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlButoes.Location = new System.Drawing.Point(12, 176);
+            this.pnlButoes.Location = new System.Drawing.Point(12, 189);
             this.pnlButoes.Name = "pnlButoes";
-            this.pnlButoes.Size = new System.Drawing.Size(528, 370);
-            this.pnlButoes.TabIndex = 1;
+            this.pnlButoes.Size = new System.Drawing.Size(528, 361);
+            this.pnlButoes.TabIndex = 0;
+            // 
+            // pnlRodape
+            // 
+            this.pnlRodape.Controls.Add(this.lblNome);
+            this.pnlRodape.Location = new System.Drawing.Point(12, 564);
+            this.pnlRodape.Name = "pnlRodape";
+            this.pnlRodape.Size = new System.Drawing.Size(528, 43);
+            this.pnlRodape.TabIndex = 2;
+            // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = false;
+            this.lblNome.BackColor = System.Drawing.Color.Transparent;
+            this.lblNome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNome.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.Location = new System.Drawing.Point(0, 0);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(528, 43);
+            this.lblNome.TabIndex = 0;
+            this.lblNome.TabStop = false;
+            this.lblNome.Text = resources.GetString("lblNome.Text");
             // 
             // btnCriar
             // 
@@ -174,6 +192,7 @@
             this.btnExcluir.TabIndex = 4;
             this.btnExcluir.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnExcluir.UseTransparentBackground = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             this.btnExcluir.Paint += new System.Windows.Forms.PaintEventHandler(this.btnExcluir_Paint);
             // 
             // btnAgendar
@@ -211,28 +230,76 @@
             this.btnAgendar.TabIndex = 3;
             this.btnAgendar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAgendar.UseTransparentBackground = true;
+            this.btnAgendar.Click += new System.EventHandler(this.btnAgendar_Click);
             this.btnAgendar.Paint += new System.Windows.Forms.PaintEventHandler(this.btnAgendar_Paint);
             // 
-            // pnlRodape
+            // icoTitle
             // 
-            this.pnlRodape.Controls.Add(this.lblNome);
-            this.pnlRodape.Location = new System.Drawing.Point(12, 564);
-            this.pnlRodape.Name = "pnlRodape";
-            this.pnlRodape.Size = new System.Drawing.Size(528, 43);
-            this.pnlRodape.TabIndex = 2;
+            this.icoTitle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("icoTitle.BackgroundImage")));
+            this.icoTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.icoTitle.Location = new System.Drawing.Point(236, 12);
+            this.icoTitle.Name = "icoTitle";
+            this.icoTitle.Size = new System.Drawing.Size(56, 56);
+            this.icoTitle.TabIndex = 2;
+            this.icoTitle.TabStop = false;
             // 
-            // lblNome
+            // guna2ContainerControl1
             // 
-            this.lblNome.AutoSize = false;
-            this.lblNome.BackColor = System.Drawing.Color.Transparent;
-            this.lblNome.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblNome.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(0, 0);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(528, 43);
-            this.lblNome.TabIndex = 1;
-            this.lblNome.TabStop = false;
-            this.lblNome.Text = resources.GetString("lblNome.Text");
+            this.guna2ContainerControl1.Controls.Add(this.guna2ControlBox2);
+            this.guna2ContainerControl1.Controls.Add(this.guna2ControlBox1);
+            this.guna2ContainerControl1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ContainerControl1.Location = new System.Drawing.Point(0, 0);
+            this.guna2ContainerControl1.Name = "guna2ContainerControl1";
+            this.guna2ContainerControl1.Size = new System.Drawing.Size(552, 49);
+            this.guna2ContainerControl1.TabIndex = 3;
+            this.guna2ContainerControl1.Text = "guna2ContainerControl1";
+            // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.Animated = true;
+            this.guna2ControlBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox2.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2ControlBox2.HoverState.IconColor = System.Drawing.SystemColors.ControlLight;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.Silver;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(441, 0);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.Size = new System.Drawing.Size(55, 50);
+            this.guna2ControlBox2.TabIndex = 0;
+            this.guna2ControlBox2.TabStop = false;
+            this.guna2ControlBox2.UseTransparentBackground = true;
+            // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2ControlBox1.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.IndianRed;
+            this.guna2ControlBox1.HoverState.IconColor = System.Drawing.SystemColors.ControlLight;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.Silver;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(496, 0);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(55, 50);
+            this.guna2ControlBox1.TabIndex = 0;
+            this.guna2ControlBox1.TabStop = false;
+            this.guna2ControlBox1.UseTransparentBackground = true;
+            // 
+            // dragPrincipal
+            // 
+            this.dragPrincipal.DockIndicatorTransparencyValue = 0.6D;
+            this.dragPrincipal.TargetControl = this.guna2ContainerControl1;
+            this.dragPrincipal.UseTransparentDrag = true;
+            // 
+            // guna2BorderlessForm1
+            // 
+            this.guna2BorderlessForm1.BorderRadius = 20;
+            this.guna2BorderlessForm1.ContainerControl = this;
+            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
             // FrmPrincipal
             // 
@@ -240,19 +307,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(552, 619);
+            this.ControlBox = false;
+            this.Controls.Add(this.guna2ContainerControl1);
             this.Controls.Add(this.pnlRodape);
             this.Controls.Add(this.pnlButoes);
             this.Controls.Add(this.pnlTitulo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "FrmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Batchup";
             this.pnlTitulo.ResumeLayout(false);
             this.pnlTitulo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.icoTitle)).EndInit();
             this.pnlButoes.ResumeLayout(false);
             this.pnlRodape.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.icoTitle)).EndInit();
+            this.guna2ContainerControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -269,5 +339,10 @@
         private Guna.UI2.WinForms.Guna2Button btnAgendar;
         private Guna.UI2.WinForms.Guna2Button btnCriar;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblNome;
+        private Guna.UI2.WinForms.Guna2ContainerControl guna2ContainerControl1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2DragControl dragPrincipal;
+        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
     }
 }

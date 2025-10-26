@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 using Batchup.Config;
 using Batchup.Controlador;
@@ -9,7 +10,7 @@ namespace Batchup.Interface
 {
     public partial class FrmConexao : Form
     {
-        #region Load
+        #region LOAD
         private FrmPrincipal frmPrincipal;
         private FrmBackup frmBackup;
         public FrmConexao (FrmPrincipal principal)
@@ -28,7 +29,8 @@ namespace Batchup.Interface
             RegistrarEnterNosTextBoxes(this);
         }
         #endregion
-        #region Pressionar Enter para testar
+
+        #region ENTER TESTA
         private void RegistrarEnterNosTextBoxes(Control container)
         {
             foreach (Control ctrl in container.Controls)
@@ -52,7 +54,7 @@ namespace Batchup.Interface
         }
         #endregion
 
-        #region Voltar
+        #region VOLTAR
         private void btnVoltar_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -60,14 +62,29 @@ namespace Batchup.Interface
         }
         #endregion Voltar
 
-        #region Fechar
+        #region FECHAR
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
-            Application.Exit();
+            base.OnFormClosing(e);
+
+            // tenta usar a referência passada
+            FrmPrincipal principal = frmPrincipal;
+
+            // se a referência for nula, tenta achar uma instância aberta do app
+            if (principal == null)
+                principal = Application.OpenForms.OfType<FrmPrincipal>().FirstOrDefault();
+
+            // se não encontrou, cria uma nova instância
+            if (principal == null)
+                principal = new FrmPrincipal();
+
+            // mostra o principal e deixa o FrmConexao fechar (não cancela o evento)
+            principal.Show();
+            // NOTA: não colocar e.Cancel = true aqui se você quer que o FrmConexao seja fechado de verdade
         }
         #endregion
 
-        #region Diretório
+        #region DIRETORIO
         private void btnDir_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog ofd = new OpenFileDialog())
@@ -86,7 +103,7 @@ namespace Batchup.Interface
         }
         #endregion
 
-        #region Carregar .ini
+        #region INI
         private void btnCarregar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtDiretorio.Text) || !File.Exists(txtDiretorio.Text))
@@ -115,10 +132,17 @@ namespace Batchup.Interface
         }
         #endregion
 
-        #region Avançar
+        #region AVANÇAR
         private void btnAvancar_Click(object sender, EventArgs e)
         {
-            
+            ArquivoConexao.ConfigConexao = new ConfigConexao
+                           (
+                            txtServidor.Text,
+                            txtPorta.Text,
+                            txtUsuario.Text,
+                            txtSenha.Text,
+                            txtBanco.Text
+                            );
 
             if (frmBackup == null || frmBackup.IsDisposed)
             {
@@ -129,11 +153,11 @@ namespace Batchup.Interface
         }
         #endregion
 
-        #region Testar
+        #region TESTAR
         private void btnTestar_Click(object sender, EventArgs e)
         {
             PreencherBox.Preencher(this);
-            ConfigConexao config = new ConfigConexao
+            ArquivoConexao.ConfigConexao = new ConfigConexao
                 (
                 txtServidor.Text,
                 txtPorta.Text,
@@ -141,7 +165,7 @@ namespace Batchup.Interface
                 txtSenha.Text,
                 txtBanco.Text
                 );
-            string resultado = ControleConexao.TestarConexao(config);
+            string resultado = ControleConexao.TestarConexao(ArquivoConexao.ConfigConexao);
             MessageBox.Show(resultado, "Teste de Conexão", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         #endregion

@@ -28,12 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblSubTitle = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnDir = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnCarregar = new Guna.UI2.WinForms.Guna2Button();
             this.txtDiretorio = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblDbMysql = new System.Windows.Forms.Label();
@@ -52,11 +51,19 @@
             this.txtUsuario = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPorta = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtServidor = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnDir = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2ContainerControl1 = new Guna.UI2.WinForms.Guna2ContainerControl();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.guna2ContainerControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -64,24 +71,10 @@
             this.panel1.Controls.Add(this.guna2PictureBox1);
             this.panel1.Controls.Add(this.lblSubTitle);
             this.panel1.Controls.Add(this.lblTitle);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(12, 57);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(528, 69);
+            this.panel1.Size = new System.Drawing.Size(528, 70);
             this.panel1.TabIndex = 0;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::Batchup.Properties.Resources.conexao;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(64, 64);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 2;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // lblSubTitle
             // 
@@ -110,29 +103,12 @@
             // 
             this.panel3.Controls.Add(this.btnDir);
             this.panel3.Controls.Add(this.btnCarregar);
-            this.panel3.Controls.Add(this.txtDiretorio);
             this.panel3.Controls.Add(this.lblDbMysql);
+            this.panel3.Controls.Add(this.txtDiretorio);
             this.panel3.Location = new System.Drawing.Point(12, 398);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(528, 150);
             this.panel3.TabIndex = 0;
-            // 
-            // btnDir
-            // 
-            this.btnDir.BackColor = System.Drawing.Color.Transparent;
-            this.btnDir.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnDir.HoverState.ImageSize = new System.Drawing.Size(34, 34);
-            this.btnDir.Image = global::Batchup.Properties.Resources.pasta;
-            this.btnDir.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnDir.ImageRotate = 0F;
-            this.btnDir.ImageSize = new System.Drawing.Size(28, 28);
-            this.btnDir.Location = new System.Drawing.Point(464, 39);
-            this.btnDir.Name = "btnDir";
-            this.btnDir.PressedState.ImageSize = new System.Drawing.Size(34, 34);
-            this.btnDir.Size = new System.Drawing.Size(34, 34);
-            this.btnDir.TabIndex = 8;
-            this.btnDir.UseTransparentBackground = true;
-            this.btnDir.Click += new System.EventHandler(this.btnDir_Click);
             // 
             // btnCarregar
             // 
@@ -194,8 +170,8 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.btnAvancar);
             this.panel4.Controls.Add(this.btnVoltar);
+            this.panel4.Controls.Add(this.btnAvancar);
             this.panel4.Location = new System.Drawing.Point(12, 554);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(528, 53);
@@ -316,9 +292,9 @@
             this.panel2.Controls.Add(this.lblUsuario);
             this.panel2.Controls.Add(this.lblPorta);
             this.panel2.Controls.Add(this.lblServidor);
-            this.panel2.Location = new System.Drawing.Point(12, 99);
+            this.panel2.Location = new System.Drawing.Point(12, 122);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(528, 281);
+            this.panel2.Size = new System.Drawing.Size(528, 275);
             this.panel2.TabIndex = 0;
             // 
             // txtBanco
@@ -375,7 +351,7 @@
             this.txtSenha.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PlaceholderForeColor = System.Drawing.Color.DimGray;
-            this.txtSenha.PlaceholderText = "123456";
+            this.txtSenha.PlaceholderText = "";
             this.txtSenha.SelectedText = "";
             this.txtSenha.Size = new System.Drawing.Size(491, 35);
             this.txtSenha.TabIndex = 4;
@@ -468,17 +444,108 @@
             this.txtServidor.Size = new System.Drawing.Size(243, 35);
             this.txtServidor.TabIndex = 1;
             // 
+            // btnDir
+            // 
+            this.btnDir.BackColor = System.Drawing.Color.Transparent;
+            this.btnDir.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnDir.HoverState.ImageSize = new System.Drawing.Size(34, 34);
+            this.btnDir.Image = global::Batchup.Properties.Resources.pasta;
+            this.btnDir.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnDir.ImageRotate = 0F;
+            this.btnDir.ImageSize = new System.Drawing.Size(28, 28);
+            this.btnDir.Location = new System.Drawing.Point(464, 39);
+            this.btnDir.Name = "btnDir";
+            this.btnDir.PressedState.ImageSize = new System.Drawing.Size(34, 34);
+            this.btnDir.Size = new System.Drawing.Size(34, 34);
+            this.btnDir.TabIndex = 8;
+            this.btnDir.UseTransparentBackground = true;
+            this.btnDir.Click += new System.EventHandler(this.btnDir_Click);
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::Batchup.Properties.Resources.conexao;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 2;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // guna2ContainerControl1
+            // 
+            this.guna2ContainerControl1.Controls.Add(this.guna2ControlBox2);
+            this.guna2ContainerControl1.Controls.Add(this.guna2ControlBox1);
+            this.guna2ContainerControl1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ContainerControl1.Location = new System.Drawing.Point(0, 0);
+            this.guna2ContainerControl1.Name = "guna2ContainerControl1";
+            this.guna2ContainerControl1.Size = new System.Drawing.Size(552, 49);
+            this.guna2ContainerControl1.TabIndex = 1;
+            this.guna2ContainerControl1.Text = "guna2ContainerControl1";
+            // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.Animated = true;
+            this.guna2ControlBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox2.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2ControlBox2.HoverState.IconColor = System.Drawing.SystemColors.ControlLight;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.Silver;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(441, 0);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.Size = new System.Drawing.Size(55, 50);
+            this.guna2ControlBox2.TabIndex = 0;
+            this.guna2ControlBox2.TabStop = false;
+            this.guna2ControlBox2.UseTransparentBackground = true;
+            // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2ControlBox1.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.IndianRed;
+            this.guna2ControlBox1.HoverState.IconColor = System.Drawing.SystemColors.ControlLight;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.Silver;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(496, 0);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(55, 50);
+            this.guna2ControlBox1.TabIndex = 0;
+            this.guna2ControlBox1.TabStop = false;
+            this.guna2ControlBox1.UseTransparentBackground = true;
+            // 
+            // guna2BorderlessForm1
+            // 
+            this.guna2BorderlessForm1.BorderRadius = 20;
+            this.guna2BorderlessForm1.ContainerControl = this;
+            this.guna2BorderlessForm1.DockForm = false;
+            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2BorderlessForm1.TransparentWhileDrag = true;
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this.guna2ContainerControl1;
+            this.guna2DragControl1.UseTransparentDrag = true;
+            // 
             // FrmConexao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(552, 619);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.guna2ContainerControl1);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Controls.Add(this.panel4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "FrmConexao";
             this.ShowIcon = false;
@@ -486,12 +553,13 @@
             this.Text = "Batchup";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.guna2ContainerControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -522,5 +590,10 @@
         private Guna.UI2.WinForms.Guna2TextBox txtPorta;
         private Guna.UI2.WinForms.Guna2TextBox txtServidor;
         private Guna.UI2.WinForms.Guna2ImageButton btnDir;
+        private Guna.UI2.WinForms.Guna2ContainerControl guna2ContainerControl1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
     }
 }

@@ -490,4 +490,10 @@
 &lt;/a&gt;  | &lt;b&gt;&amp;lt;&lt;span style="color:#000;"&gt;black&lt;/span&gt;&lt;span style="color:#4B0082;"&gt;BIT&lt;/span&gt;&lt;span style="color:#000;"&gt;/&lt;/span&gt;&amp;gt;&lt;/b&gt;
 &lt;br&gt;© 2025 Todos os direitos reservados. &lt;/div&gt; &lt;/center&gt;</value>
   </data>
+  <metadata name="dragPrincipal.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="guna2BorderlessForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>161, 17</value>
+  </metadata>
 </root>

@@ -49,3 +49,4 @@ C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.pdb
 C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.exe.config
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\MySql.Data.dll
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\MySql.Data.xml
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Interface.FrmAgendar.resources

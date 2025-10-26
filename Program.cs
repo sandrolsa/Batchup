@@ -17,7 +17,7 @@ namespace Batchup
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmBackup());
+            Application.Run(new FrmPrincipal());
         }
     }
 }

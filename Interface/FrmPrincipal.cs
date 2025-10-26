@@ -1,17 +1,28 @@
 ﻿using System;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace Batchup.Interface
 {
     public partial class FrmPrincipal : Form
     {
+        #region LOAD
         private FrmConexao frmConexao;
         public FrmPrincipal()
         {
             InitializeComponent();
         }
-        #region  Texto dos Botões   
+        #endregion
+
+        #region FECHAR
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+        #endregion
+
+        #region  TEXTO BOTÕES  
         //btnCriar Text
         private void btnCriar_Paint(object sender, PaintEventArgs e)
         {
@@ -62,6 +73,7 @@ namespace Batchup.Interface
         }
         #endregion
 
+        #region CRIAR
         private void btnCriar_Click(object sender, EventArgs e)
         {
             if (frmConexao == null || frmConexao.IsDisposed)
@@ -71,5 +83,20 @@ namespace Batchup.Interface
             this.Hide();
             frmConexao.Show();
         }
+        #endregion
+
+        #region AGENDAR
+        private void btnAgendar_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+
+        #region EXCLUIR
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
 }

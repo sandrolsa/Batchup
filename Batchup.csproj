@@ -114,6 +114,15 @@
     <Compile Include="Controlador\ControleArquivos.cs" />
     <Compile Include="Controlador\ControleBackup.cs" />
     <Compile Include="Controlador\ControleConexao.cs" />
+    <Compile Include="Controlador\ControleFechar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\FrmAgendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\FrmAgendar.Designer.cs">
+      <DependentUpon>FrmAgendar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface\FrmBackup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,8 +149,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Servicos\ArquivoBat.cs" />
+    <Compile Include="Servicos\ArquivoConexao.cs" />
     <Compile Include="Servicos\ArquivoIni.cs" />
     <Compile Include="Servicos\PreencherBox.cs" />
+    <EmbeddedResource Include="Interface\FrmAgendar.resx">
+      <DependentUpon>FrmAgendar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interface\FrmBackup.resx">
       <DependentUpon>FrmBackup.cs</DependentUpon>
     </EmbeddedResource>
