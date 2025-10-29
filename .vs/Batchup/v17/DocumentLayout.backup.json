@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\DEV\\pessoal\\projetos\\Batchup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\interface\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:interface\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\views\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\interface\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:interface\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\presenters\\frmbackuppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\presenters\\frmbackuppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\interface\\frmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:interface\\frmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\presenters\\frmconexaopresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\presenters\\frmconexaopresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\views\\frmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\interface\\frmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:interface\\frmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\presenters\\frmprincipalpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\presenters\\frmprincipalpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\views\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\views\\frmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\views\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\iviews\\ifrmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\iviews\\ifrmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\iviews\\ifrmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\iviews\\ifrmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\views\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\iviews\\ifrmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\iviews\\ifrmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +58,176 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "FrmPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Interface\\FrmPrincipal.cs",
-              "RelativeDocumentMoniker": "Interface\\FrmPrincipal.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Interface\\FrmPrincipal.cs [Design]",
-              "RelativeToolTip": "Interface\\FrmPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "Presentation\\Views\\FrmPrincipal.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmPrincipal.cs [Design]",
+              "RelativeToolTip": "Presentation\\Views\\FrmPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T11:42:14.124Z",
+              "WhenOpened": "2025-10-29T11:41:42.044Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmConexao.cs [Design]",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Interface\\FrmConexao.cs",
-              "RelativeDocumentMoniker": "Interface\\FrmConexao.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Interface\\FrmConexao.cs [Design]",
-              "RelativeToolTip": "Interface\\FrmConexao.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "Presentation\\Views\\FrmPrincipal.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmPrincipal.cs",
+              "RelativeToolTip": "Presentation\\Views\\FrmPrincipal.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:25:49.754Z",
+              "WhenOpened": "2025-10-29T11:41:44.417Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmBackup.cs [Design]",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Interface\\FrmBackup.cs",
-              "RelativeDocumentMoniker": "Interface\\FrmBackup.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Interface\\FrmBackup.cs [Design]",
-              "RelativeToolTip": "Interface\\FrmBackup.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:33:23.262Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FrmAgendar.cs [Design]",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Interface\\FrmAgendar.cs",
-              "RelativeDocumentMoniker": "Interface\\FrmAgendar.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Interface\\FrmAgendar.cs [Design]",
-              "RelativeToolTip": "Interface\\FrmAgendar.cs [Design]",
+              "Title": "FrmPrincipalPresenter.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmPrincipalPresenter.cs",
+              "RelativeDocumentMoniker": "Presentation\\Presenters\\FrmPrincipalPresenter.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmPrincipalPresenter.cs",
+              "RelativeToolTip": "Presentation\\Presenters\\FrmPrincipalPresenter.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T14:15:33.005Z",
+              "WhenOpened": "2025-10-29T11:41:49.888Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IFrmPrincipal.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmPrincipal.cs",
+              "RelativeDocumentMoniker": "Presentation\\IViews\\IFrmPrincipal.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmPrincipal.cs",
+              "RelativeToolTip": "Presentation\\IViews\\IFrmPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:41:52.681Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Title": "FrmConexao.cs [Design]",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmConexao.cs",
+              "RelativeDocumentMoniker": "Presentation\\Views\\FrmConexao.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmConexao.cs [Design]",
+              "RelativeToolTip": "Presentation\\Views\\FrmConexao.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T15:31:52.521Z",
+              "WhenOpened": "2025-10-29T11:42:05.27Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmConexao.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmConexao.cs",
+              "RelativeDocumentMoniker": "Presentation\\Views\\FrmConexao.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmConexao.cs",
+              "RelativeToolTip": "Presentation\\Views\\FrmConexao.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAApwCwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:42:08.332Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmConexaoPresenter.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmConexaoPresenter.cs",
+              "RelativeDocumentMoniker": "Presentation\\Presenters\\FrmConexaoPresenter.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmConexaoPresenter.cs",
+              "RelativeToolTip": "Presentation\\Presenters\\FrmConexaoPresenter.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAwwKcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:42:10.965Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFrmConexao.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmConexao.cs",
+              "RelativeDocumentMoniker": "Presentation\\IViews\\IFrmConexao.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmConexao.cs",
+              "RelativeToolTip": "Presentation\\IViews\\IFrmConexao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:42:13.139Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmBackup.cs [Design]",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmBackup.cs",
+              "RelativeDocumentMoniker": "Presentation\\Views\\FrmBackup.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmBackup.cs [Design]",
+              "RelativeToolTip": "Presentation\\Views\\FrmBackup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:42:23.407Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmBackup.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmBackup.cs",
+              "RelativeDocumentMoniker": "Presentation\\Views\\FrmBackup.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmBackup.cs",
+              "RelativeToolTip": "Presentation\\Views\\FrmBackup.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:42:25.479Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmBackupPresenter.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmBackupPresenter.cs",
+              "RelativeDocumentMoniker": "Presentation\\Presenters\\FrmBackupPresenter.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmBackupPresenter.cs",
+              "RelativeToolTip": "Presentation\\Presenters\\FrmBackupPresenter.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwDQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:42:28.015Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFrmBackup.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmBackup.cs",
+              "RelativeDocumentMoniker": "Presentation\\IViews\\IFrmBackup.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmBackup.cs",
+              "RelativeToolTip": "Presentation\\IViews\\IFrmBackup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:42:30.363Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

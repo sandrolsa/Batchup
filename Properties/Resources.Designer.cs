@@ -63,16 +63,6 @@ namespace Batchup.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _02 {
-            get {
-                object obj = ResourceManager.GetObject("_02", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         public static System.Drawing.Bitmap adiciona {
             get {
                 object obj = ResourceManager.GetObject("adiciona", resourceCulture);
@@ -153,9 +143,29 @@ namespace Batchup.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap pasta_aberta {
+            get {
+                object obj = ResourceManager.GetObject("pasta_aberta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap pasta_titulo {
             get {
                 object obj = ResourceManager.GetObject("pasta_titulo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap titulo {
+            get {
+                object obj = ResourceManager.GetObject("titulo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

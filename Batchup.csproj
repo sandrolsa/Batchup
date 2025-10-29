@@ -109,59 +109,64 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Config\ConfigConexao.cs" />
-    <Compile Include="Config\ConfigBackup.cs" />
-    <Compile Include="Controlador\ControleArquivos.cs" />
-    <Compile Include="Controlador\ControleBackup.cs" />
-    <Compile Include="Controlador\ControleConexao.cs" />
-    <Compile Include="Controlador\ControleFechar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Interface\FrmAgendar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Interface\FrmAgendar.Designer.cs">
-      <DependentUpon>FrmAgendar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Interface\FrmBackup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Interface\FrmBackup.Designer.cs">
-      <DependentUpon>FrmBackup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Interface\FrmConexao.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Interface\FrmConexao.Designer.cs">
-      <DependentUpon>FrmConexao.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Interface\FrmPrincipal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Interface\FrmPrincipal.Designer.cs">
-      <DependentUpon>FrmPrincipal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Core\Models\ConfigBackupModel.cs" />
+    <Compile Include="Core\Models\ConfigConexaoModel.cs" />
+    <Compile Include="Core\Services\BackupService.cs" />
+    <Compile Include="Core\Services\FileCopyService.cs" />
+    <Compile Include="Core\Services\IBackupService.cs" />
+    <Compile Include="Core\Services\ITestarConexaoService.cs" />
+    <Compile Include="Core\Services\ServiceResult.cs" />
+    <Compile Include="Core\Services\TestarConexaoService.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Servicos\ArquivoBat.cs" />
-    <Compile Include="Servicos\ArquivoConexao.cs" />
-    <Compile Include="Servicos\ArquivoIni.cs" />
-    <Compile Include="Servicos\PreencherBox.cs" />
-    <EmbeddedResource Include="Interface\FrmAgendar.resx">
+    <Compile Include="Utils\Helpers\ArquivoIniUtil.cs" />
+    <Compile Include="Presentation\IViews\IFrmBackup.cs" />
+    <Compile Include="Presentation\Presenters\FrmBackupPresenter.cs" />
+    <Compile Include="Presentation\Presenters\FrmConexaoPresenter.cs" />
+    <Compile Include="Presentation\Presenters\FrmPrincipalPresenter.cs" />
+    <Compile Include="Presentation\Views\FrmAgendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Views\FrmAgendar.Designer.cs">
+      <DependentUpon>FrmAgendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Views\FrmBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Views\FrmBackup.Designer.cs">
+      <DependentUpon>FrmBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Views\FrmConexao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Views\FrmConexao.Designer.cs">
+      <DependentUpon>FrmConexao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Views\FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Views\FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Presentation\IViews\IFrmConexao.cs" />
+    <Compile Include="Presentation\IViews\IFrmPrincipal.cs" />
+    <Compile Include="Utils\Helpers\BatchFileGenerator.cs" />
+    <Compile Include="Utils\Helpers\FolderBrowserDialogHelper.cs" />
+    <EmbeddedResource Include="Presentation\Views\FrmAgendar.resx">
       <DependentUpon>FrmAgendar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Interface\FrmBackup.resx">
+    <EmbeddedResource Include="Presentation\Views\FrmBackup.resx">
       <DependentUpon>FrmBackup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Interface\FrmConexao.resx">
+    <EmbeddedResource Include="Presentation\Views\FrmConexao.resx">
       <DependentUpon>FrmConexao.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Interface\FrmPrincipal.resx">
+    <EmbeddedResource Include="Presentation\Views\FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -184,40 +189,39 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Interface\img\hover_excluir.png" />
+    <None Include="Utils\Resources\img\pasta.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Interface\img\adiciona.png" />
+    <None Include="Utils\Resources\img\titulo-pasta.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Interface\img\agenda.png" />
+    <None Include="Utils\Resources\img\titulo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Interface\img\conexao.png" />
+    <None Include="Utils\Resources\img\adiciona.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Interface\img\exclui.png" />
+    <None Include="Utils\Resources\img\agenda.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Interface\img\02.png" />
+    <None Include="Utils\Resources\img\conexao.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Interface\img\hover_agenda.png" />
+    <None Include="Utils\Resources\img\exclui.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Interface\img\hover_adiciona.png" />
+    <None Include="Utils\Resources\img\hover_adiciona.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pasta.png" />
+    <None Include="Utils\Resources\img\hover_agenda.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pasta-aberta.png" />
+    <None Include="Utils\Resources\img\hover_excluir.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pasta-titulo.png" />
+    <Content Include="Utils\Resources\img\pasta-aberta.png" />
+    <Content Include="Utils\Resources\img\pasta-titulo.png" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\titulo-pasta.png" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
