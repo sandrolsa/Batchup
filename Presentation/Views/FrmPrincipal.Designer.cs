@@ -278,7 +278,7 @@
             this.btnFechar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnFechar.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
             this.btnFechar.FillColor = System.Drawing.Color.White;
-            this.btnFechar.HoverState.FillColor = System.Drawing.Color.IndianRed;
+            this.btnFechar.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnFechar.HoverState.IconColor = System.Drawing.SystemColors.ControlLight;
             this.btnFechar.IconColor = System.Drawing.Color.Silver;
             this.btnFechar.Location = new System.Drawing.Point(496, 0);

@@ -10,6 +10,7 @@ C:\DEV\pessoal\projetos\Batchup\bin\Debug\K4os.Hash.xxHash.dll
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\DEV\pessoal\projetos\Batchup\bin\Debug\MySql.Data.dll
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\System.Buffers.dll
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\System.Configuration.ConfigurationManager.dll
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\System.Diagnostics.DiagnosticSource.dll
@@ -28,6 +29,7 @@ C:\DEV\pessoal\projetos\Batchup\bin\Debug\K4os.Hash.xxHash.xml
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\DEV\pessoal\projetos\Batchup\bin\Debug\MySql.Data.xml
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\System.Buffers.xml
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\System.Configuration.ConfigurationManager.xml
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\System.Diagnostics.DiagnosticSource.xml
@@ -37,16 +39,14 @@ C:\DEV\pessoal\projetos\Batchup\bin\Debug\System.Numerics.Vectors.xml
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.csproj.AssemblyReference.cache
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Presentation.Views.FrmAgendar.resources
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Presentation.Views.FrmBackup.resources
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Presentation.Views.FrmConexao.resources
+C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Presentation.Views.FrmPrincipal.resources
 C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Properties.Resources.resources
 C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.csproj.GenerateResource.cache
 C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.csproj.CoreCompileInputs.cache
 C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.csproj.Up2Date
 C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.exe
 C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.pdb
-C:\DEV\pessoal\projetos\Batchup\bin\Debug\MySql.Data.dll
-C:\DEV\pessoal\projetos\Batchup\bin\Debug\MySql.Data.xml
-C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Presentation.Views.FrmAgendar.resources
-C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Presentation.Views.FrmBackup.resources
-C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Presentation.Views.FrmConexao.resources
-C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.Presentation.Views.FrmPrincipal.resources
 C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.exe.config

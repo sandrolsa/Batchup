@@ -185,6 +185,8 @@
             this.txtDiretorio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDiretorio.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDiretorio.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDiretorio.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.txtDiretorio.FocusedState.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.txtDiretorio.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtDiretorio.ForeColor = System.Drawing.Color.Black;
             this.txtDiretorio.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -339,6 +341,8 @@
             this.txtBanco.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtBanco.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtBanco.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtBanco.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.txtBanco.FocusedState.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.txtBanco.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtBanco.ForeColor = System.Drawing.Color.Black;
             this.txtBanco.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -398,6 +402,8 @@
             this.txtUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtUsuario.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.txtUsuario.FocusedState.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.txtUsuario.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtUsuario.ForeColor = System.Drawing.Color.Black;
             this.txtUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -427,6 +433,8 @@
             this.txtPorta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPorta.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPorta.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPorta.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.txtPorta.FocusedState.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.txtPorta.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPorta.ForeColor = System.Drawing.Color.Black;
             this.txtPorta.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -457,6 +465,8 @@
             this.txtServidor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtServidor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtServidor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtServidor.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.txtServidor.FocusedState.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.txtServidor.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtServidor.ForeColor = System.Drawing.Color.Black;
             this.txtServidor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -505,7 +515,7 @@
             this.btnFechar.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
             this.btnFechar.CustomClick = true;
             this.btnFechar.FillColor = System.Drawing.Color.White;
-            this.btnFechar.HoverState.FillColor = System.Drawing.Color.IndianRed;
+            this.btnFechar.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnFechar.HoverState.IconColor = System.Drawing.SystemColors.ControlLight;
             this.btnFechar.IconColor = System.Drawing.Color.Silver;
             this.btnFechar.Location = new System.Drawing.Point(496, 0);
@@ -514,7 +524,6 @@
             this.btnFechar.TabIndex = 0;
             this.btnFechar.TabStop = false;
             this.btnFechar.UseTransparentBackground = true;
-//            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // guna2BorderlessForm1
             // 

@@ -219,6 +219,8 @@
     <None Include="Utils\Resources\img\hover_excluir.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\agendar.png" />
+    <None Include="Resources\calendario.png" />
     <Content Include="Utils\Resources\img\pasta-aberta.png" />
     <Content Include="Utils\Resources\img\pasta-titulo.png" />
   </ItemGroup>

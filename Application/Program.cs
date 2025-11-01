@@ -16,7 +16,7 @@ namespace Batchup
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Inicializar a View principal. Ajuste se preferir abrir FrmAgendar diretamente.
-            Application.Run(new FrmPrincipal());
+            Application.Run(new FrmAgendar());
         }
     }
 }

@@ -11,15 +11,17 @@ namespace Batchup.Presentation.Presenters
 {
     public class FrmConexaoPresenter
     {
+        // Referências a interfaces e instancia model/presenter/service
         private readonly IFrmConexao _view;
         private readonly TestarConexaoService _testarConexaoService;
         private readonly ConfigConexaoModel _config;
         private FrmBackup _frmBackup;
         private FrmBackupPresenter _frmBackupPresenter;
-
+        // Eventos para fechar e voltar
         public event EventHandler NavigatedBack;
         public event EventHandler CloseToPrincipal;
 
+        // Injeção das dependencias
         public FrmConexaoPresenter(IFrmConexao view)
         {
             _view = view;
@@ -28,6 +30,7 @@ namespace Batchup.Presentation.Presenters
             SubscribeToEvents();
         }
 
+        // Assinatura de Eventos
         private void SubscribeToEvents()
         {
             _view.VoltarClicked += OnVoltarClicked;
@@ -38,16 +41,16 @@ namespace Batchup.Presentation.Presenters
             _view.FecharClicked += OnFecharClicked;
         }
 
+        // Handlers
         private void OnVoltarClicked(object sender, EventArgs e)
         {
-            _view.Close();
-            NavigatedBack?.Invoke(this, EventArgs.Empty); // Avisa que voltou
+            _view.Hide();
+            NavigatedBack?.Invoke(this, EventArgs.Empty); // DISPARA o evento para a interface
         }
 
         private void OnFecharClicked(object sender, EventArgs e)
         {
-            // FECHAR: Mata TODOS os forms e vai direto para o FrmPrincipal
-            // Fecha o FrmBackup se estiver aberto
+            // Valida se o Form está aberto, se sim ele fecha e volta para o FrmPrincipal
             if (_frmBackup != null && !_frmBackup.IsDisposed)
             {
                 _frmBackup.Close();
@@ -61,6 +64,7 @@ namespace Batchup.Presentation.Presenters
 
         private void OnDiretorioClicked(object sender, EventArgs e)
         {
+            // Abre o FileDialog para pesquisar o arquivo ini.
             using (var ofd = new OpenFileDialog())
             {
                 ofd.Title = "Selecione o arquivo DbMysql para leitura";
@@ -78,6 +82,7 @@ namespace Batchup.Presentation.Presenters
 
         private void OnCarregarClicked(object sender, EventArgs e)
         {
+            // Valida se o campo está preenchido
             if (string.IsNullOrEmpty(_view.Diretorio) || !File.Exists(_view.Diretorio))
             {
                 _view.ShowMessage("Por favor, selecione um arquivo .ini primeiro",
@@ -87,6 +92,7 @@ namespace Batchup.Presentation.Presenters
 
             try
             {
+                // Carrega a classe LerIni para completar os campos
                 var (servidor, porta, banco, usuario, senha) = ArquivoIniUtil.LerIni(_view.Diretorio);
                 _view.Servidor = servidor;
                 _view.Porta = porta;
@@ -106,10 +112,13 @@ namespace Batchup.Presentation.Presenters
 
         private async void OnTestarClicked(object sender, EventArgs e)
         {
+            // Chama a função de preenchimento de campos vazios com placeholder (valor padrão)
+            (_view as FrmConexao)?.IfNullDefault();
             UpdateConfigFromView();
 
             if (!_config.IsValid())
             {
+                (_view as FrmConexao)?.IfNullDefault();
                 _view.ShowMessage("Por favor, preencha todos os campos obrigatórios.",
                     "Campos Obrigatórios", MessageBoxIcon.Warning);
                 return;
@@ -166,7 +175,7 @@ namespace Batchup.Presentation.Presenters
                 _view.ShowMessage($"Erro ao avançar: {ex.Message}", "Erro", MessageBoxIcon.Error);
             }
         }
-
+        // Atualiza a Model
         private void UpdateConfigFromView()
         {
             _config.Servidor = _view.Servidor;
