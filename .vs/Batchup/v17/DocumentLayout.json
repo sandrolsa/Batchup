@@ -3,40 +3,39 @@
   "WorkspaceRootPath": "C:\\DEV\\pessoal\\projetos\\Batchup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\core\\services\\testarconexaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\services\\testarconexaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\presentation\\iviews\\ifrmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\iviews\\ifrmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\presentation\\presenters\\frmagendarpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\presenters\\frmagendarpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\views\\frmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\presentation\\views\\frmagendar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmagendar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\views\\frmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\views\\frmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\views\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\presentation\\views\\frmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\core\\services\\itestarconexaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\services\\itestarconexaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\core\\models\\configagendadormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\models\\configagendadormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\iviews\\ifrmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\iviews\\ifrmconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Batchup||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\presenters\\frmconexaopresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\presenters\\frmconexaopresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\core\\services\\agendadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\services\\agendadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,105 +53,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TestarConexaoService.cs",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\TestarConexaoService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\TestarConexaoService.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\TestarConexaoService.cs",
-              "RelativeToolTip": "Core\\Services\\TestarConexaoService.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFYAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T17:38:50.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ITestarConexaoService.cs",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\ITestarConexaoService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\ITestarConexaoService.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\ITestarConexaoService.cs",
-              "RelativeToolTip": "Core\\Services\\ITestarConexaoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T17:38:43.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Application\\Program.cs",
               "RelativeDocumentMoniker": "Application\\Program.cs",
               "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Application\\Program.cs",
               "RelativeToolTip": "Application\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T17:37:02.973Z",
+              "WhenOpened": "2025-11-04T07:46:25.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FrmConexaoPresenter.cs",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmConexaoPresenter.cs",
-              "RelativeDocumentMoniker": "Presentation\\Presenters\\FrmConexaoPresenter.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmConexaoPresenter.cs",
-              "RelativeToolTip": "Presentation\\Presenters\\FrmConexaoPresenter.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAADwv3AAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FrmAgendar.Designer.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmAgendar.Designer.cs",
+              "RelativeDocumentMoniker": "Presentation\\Views\\FrmAgendar.Designer.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmAgendar.Designer.cs",
+              "RelativeToolTip": "Presentation\\Views\\FrmAgendar.Designer.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAgwNEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T18:56:47.8Z",
+              "WhenOpened": "2025-11-04T07:11:38.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IFrmConexao.cs",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmConexao.cs",
-              "RelativeDocumentMoniker": "Presentation\\IViews\\IFrmConexao.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmConexao.cs",
-              "RelativeToolTip": "Presentation\\IViews\\IFrmConexao.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FrmAgendarPresenter.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmAgendarPresenter.cs",
+              "RelativeDocumentMoniker": "Presentation\\Presenters\\FrmAgendarPresenter.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmAgendarPresenter.cs",
+              "RelativeToolTip": "Presentation\\Presenters\\FrmAgendarPresenter.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIA9wBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T18:56:38.516Z",
+              "WhenOpened": "2025-11-03T23:06:21.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmConexao.cs",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmConexao.cs",
-              "RelativeDocumentMoniker": "Presentation\\Views\\FrmConexao.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmConexao.cs",
-              "RelativeToolTip": "Presentation\\Views\\FrmConexao.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IFrmAgendar.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmAgendar.cs",
+              "RelativeDocumentMoniker": "Presentation\\IViews\\IFrmAgendar.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmAgendar.cs",
+              "RelativeToolTip": "Presentation\\IViews\\IFrmAgendar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T18:56:19.947Z",
+              "WhenOpened": "2025-11-03T22:57:33.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FrmBackup.cs [Design]",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmBackup.cs",
-              "RelativeDocumentMoniker": "Presentation\\Views\\FrmBackup.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmBackup.cs [Design]",
-              "RelativeToolTip": "Presentation\\Views\\FrmBackup.cs [Design]",
+              "Title": "FrmAgendar.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmAgendar.cs",
+              "RelativeDocumentMoniker": "Presentation\\Views\\FrmAgendar.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmAgendar.cs",
+              "RelativeToolTip": "Presentation\\Views\\FrmAgendar.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T16:59:21.513Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-03T22:44:58.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmConexao.cs [Design]",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmConexao.cs",
-              "RelativeDocumentMoniker": "Presentation\\Views\\FrmConexao.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmConexao.cs [Design]",
-              "RelativeToolTip": "Presentation\\Views\\FrmConexao.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "AgendadorService.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\AgendadorService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\AgendadorService.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\AgendadorService.cs",
+              "RelativeToolTip": "Core\\Services\\AgendadorService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T16:45:58.198Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-03T18:08:01.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConfigAgendadorModel.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Models\\ConfigAgendadorModel.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\ConfigAgendadorModel.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Models\\ConfigAgendadorModel.cs",
+              "RelativeToolTip": "Core\\Models\\ConfigAgendadorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T18:05:38.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Batchup",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Batchup.csproj",
+              "RelativeDocumentMoniker": "Batchup.csproj",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Batchup.csproj",
+              "RelativeToolTip": "Batchup.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-03T18:04:50.688Z"
             },
             {
               "$type": "Document",
@@ -163,7 +161,7 @@
               "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmAgendar.cs [Design]",
               "RelativeToolTip": "Presentation\\Views\\FrmAgendar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T20:22:16.289Z",
+              "WhenOpened": "2025-11-03T18:04:41.069Z",
               "EditorCaption": " [Design]"
             }
           ]
