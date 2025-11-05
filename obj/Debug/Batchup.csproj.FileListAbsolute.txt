@@ -62,4 +62,3 @@ C:\DEV\pessoal\projetos\Batchup\bin\Debug\sv\Microsoft.Win32.TaskScheduler.resou
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\tr\Microsoft.Win32.TaskScheduler.resources.dll
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
 C:\DEV\pessoal\projetos\Batchup\bin\Debug\zh-Hant\Microsoft.Win32.TaskScheduler.resources.dll
-C:\DEV\pessoal\projetos\Batchup\obj\Debug\Batchup.exe.config

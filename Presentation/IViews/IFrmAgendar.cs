@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using Batchup.Core.Models;
 
 namespace Batchup.Presentation.IViews
 {
     public interface IFrmAgendar
     {
-        //void ExibeBats(List<string> arquivos);
-        void ExibeAgendados(List<(string Hora, string Arquivo)> tarefas);
+        void LimparLista();
+        void AddArqLista(List<ArquivoInfoModel> arquivos);
         void ShowMessage(string message);
     }
 }

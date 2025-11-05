@@ -114,15 +114,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\Models\ConfigAgendadorModel.cs" />
+    <Compile Include="Core\Models\ArquivoInfoModel.cs" />
     <Compile Include="Core\Models\ConfigBackupModel.cs" />
     <Compile Include="Core\Models\ConfigConexaoModel.cs" />
     <Compile Include="Core\Services\BatService.cs" />
-    <Compile Include="Core\Services\AgendadorService.cs" />
     <Compile Include="Core\Services\BackupService.cs" />
     <Compile Include="Core\Services\FileCopyService.cs" />
     <Compile Include="Core\Services\IBackupService.cs" />
     <Compile Include="Core\Services\ITestarConexaoService.cs" />
+    <Compile Include="Core\Services\ListarArquivosService.cs" />
     <Compile Include="Core\Services\ServiceResult.cs" />
     <Compile Include="Core\Services\TestarConexaoService.cs" />
     <Compile Include="Presentation\IViews\IFrmAgendar.cs" />
@@ -132,6 +132,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Utils\Helpers\AddArqLista.cs" />
     <Compile Include="Utils\Helpers\ArquivoIniUtil.cs" />
     <Compile Include="Presentation\IViews\IFrmBackup.cs" />
     <Compile Include="Presentation\Presenters\FrmBackupPresenter.cs" />
