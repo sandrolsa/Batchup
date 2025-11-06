@@ -3,42 +3,52 @@
   "WorkspaceRootPath": "C:\\DEV\\pessoal\\projetos\\Batchup\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\core\\services\\taskschedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\services\\taskschedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\core\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\core\\models\\arquivoinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\models\\arquivoinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\presentation\\views\\frmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\utils\\helpers\\addarqlista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:utils\\helpers\\addarqlista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\core\\services\\listararquivosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\services\\listararquivosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\presentation\\iviews\\ifrmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\iviews\\ifrmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\presentation\\views\\frmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\views\\frmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\core\\models\\arquivoinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\models\\arquivoinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\utils\\helpers\\listviewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:utils\\helpers\\listviewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\utils\\helpers\\listviewagendadoshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:utils\\helpers\\listviewagendadoshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\presentation\\presenters\\frmagendarpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\presenters\\frmagendarpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Batchup||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\presentation\\iviews\\ifrmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:presentation\\iviews\\ifrmagendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\core\\services\\listararquivosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\services\\listararquivosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|c:\\dev\\pessoal\\projetos\\batchup\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\core\\services\\arquivoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:core\\services\\arquivoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|C:\\DEV\\pessoal\\projetos\\Batchup\\utils\\helpers\\addarqlista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC982EC-24A5-4175-B6D2-1A6452CF2E18}|Batchup.csproj|solutionrelative:utils\\helpers\\addarqlista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,104 +66,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArquivoInfoModel.cs",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Models\\ArquivoInfoModel.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\ArquivoInfoModel.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Models\\ArquivoInfoModel.cs",
-              "RelativeToolTip": "Core\\Models\\ArquivoInfoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TaskSchedulerService.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\TaskSchedulerService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\TaskSchedulerService.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\TaskSchedulerService.cs",
+              "RelativeToolTip": "Core\\Services\\TaskSchedulerService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAcwJQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:33:46.911Z",
+              "WhenOpened": "2025-11-05T22:14:18.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\FileService.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\FileService.cs",
+              "RelativeToolTip": "Core\\Services\\FileService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:13:59.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ArquivoService.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\ArquivoService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\ArquivoService.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\ArquivoService.cs",
+              "RelativeToolTip": "Core\\Services\\ArquivoService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:50:02.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AddArqLista.cs",
               "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Utils\\Helpers\\AddArqLista.cs",
               "RelativeDocumentMoniker": "Utils\\Helpers\\AddArqLista.cs",
               "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Utils\\Helpers\\AddArqLista.cs",
               "RelativeToolTip": "Utils\\Helpers\\AddArqLista.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:39:32.214Z",
+              "WhenOpened": "2025-11-05T21:42:00.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "ListViewHelper.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Utils\\Helpers\\ListViewHelper.cs",
+              "RelativeDocumentMoniker": "Utils\\Helpers\\ListViewHelper.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Utils\\Helpers\\ListViewHelper.cs",
+              "RelativeToolTip": "Utils\\Helpers\\ListViewHelper.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:00:19.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ListarArquivosService.cs",
               "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\ListarArquivosService.cs",
               "RelativeDocumentMoniker": "Core\\Services\\ListarArquivosService.cs",
               "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Services\\ListarArquivosService.cs",
               "RelativeToolTip": "Core\\Services\\ListarArquivosService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:16:12.494Z",
+              "WhenOpened": "2025-11-05T20:50:38.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Application\\Program.cs",
-              "RelativeDocumentMoniker": "Application\\Program.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Application\\Program.cs",
-              "RelativeToolTip": "Application\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ArquivoInfoModel.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Models\\ArquivoInfoModel.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\ArquivoInfoModel.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Core\\Models\\ArquivoInfoModel.cs",
+              "RelativeToolTip": "Core\\Models\\ArquivoInfoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T07:46:25.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmAgendarPresenter.cs",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmAgendarPresenter.cs",
-              "RelativeDocumentMoniker": "Presentation\\Presenters\\FrmAgendarPresenter.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmAgendarPresenter.cs",
-              "RelativeToolTip": "Presentation\\Presenters\\FrmAgendarPresenter.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:06:21.433Z",
+              "WhenOpened": "2025-11-05T20:28:26.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IFrmAgendar.cs",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmAgendar.cs",
-              "RelativeDocumentMoniker": "Presentation\\IViews\\IFrmAgendar.cs",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmAgendar.cs",
-              "RelativeToolTip": "Presentation\\IViews\\IFrmAgendar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T22:57:33.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "FrmAgendar.cs",
               "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmAgendar.cs",
               "RelativeDocumentMoniker": "Presentation\\Views\\FrmAgendar.cs",
               "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmAgendar.cs",
               "RelativeToolTip": "Presentation\\Views\\FrmAgendar.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowGsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T22:44:58.594Z",
+              "WhenOpened": "2025-11-05T19:18:29.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Batchup",
-              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Batchup.csproj",
-              "RelativeDocumentMoniker": "Batchup.csproj",
-              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Batchup.csproj",
-              "RelativeToolTip": "Batchup.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-03T18:04:50.688Z",
+              "Title": "FrmAgendarPresenter.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmAgendarPresenter.cs",
+              "RelativeDocumentMoniker": "Presentation\\Presenters\\FrmAgendarPresenter.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Presenters\\FrmAgendarPresenter.cs",
+              "RelativeToolTip": "Presentation\\Presenters\\FrmAgendarPresenter.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:15:08.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListViewAgendadosHelper.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Utils\\Helpers\\ListViewAgendadosHelper.cs",
+              "RelativeDocumentMoniker": "Utils\\Helpers\\ListViewAgendadosHelper.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Utils\\Helpers\\ListViewAgendadosHelper.cs",
+              "RelativeToolTip": "Utils\\Helpers\\ListViewAgendadosHelper.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwBoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:14:10.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFrmAgendar.cs",
+              "DocumentMoniker": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmAgendar.cs",
+              "RelativeDocumentMoniker": "Presentation\\IViews\\IFrmAgendar.cs",
+              "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\IViews\\IFrmAgendar.cs",
+              "RelativeToolTip": "Presentation\\IViews\\IFrmAgendar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:13:30.89Z",
               "EditorCaption": ""
             },
             {
@@ -165,7 +216,7 @@
               "ToolTip": "C:\\DEV\\pessoal\\projetos\\Batchup\\Presentation\\Views\\FrmAgendar.cs [Design]",
               "RelativeToolTip": "Presentation\\Views\\FrmAgendar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T18:04:41.069Z",
+              "WhenOpened": "2025-11-05T17:30:38.203Z",
               "EditorCaption": " [Design]"
             }
           ]

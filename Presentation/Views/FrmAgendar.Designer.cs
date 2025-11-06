@@ -43,7 +43,6 @@ namespace Batchup.Presentation.Views
             this.pnlView = new Guna.UI2.WinForms.Guna2Panel();
             this.listDisponiveis = new System.Windows.Forms.ListView();
             this.icons = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listAgendados = new System.Windows.Forms.ListBox();
             this.lblSubAgendar = new System.Windows.Forms.Label();
             this.btnAdd = new Guna.UI2.WinForms.Guna2Button();
             this.lblAgendados = new System.Windows.Forms.Label();
@@ -51,15 +50,19 @@ namespace Batchup.Presentation.Views
             this.lblDataHora = new System.Windows.Forms.Label();
             this.lblArquivos = new System.Windows.Forms.Label();
             this.pnlTitle = new System.Windows.Forms.Panel();
-            this.picTitle = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblSubTitle = new System.Windows.Forms.Label();
             this.elipseGrid1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.elipseGrid2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.picTitle = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.listAgendados = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.guna2ContainerControl1.SuspendLayout();
             this.pnlNav.SuspendLayout();
             this.pnlView.SuspendLayout();
             this.pnlTitle.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTitle)).BeginInit();
             this.SuspendLayout();
             // 
@@ -170,8 +173,8 @@ namespace Batchup.Presentation.Views
             // 
             // pnlView
             // 
-            this.pnlView.Controls.Add(this.listDisponiveis);
             this.pnlView.Controls.Add(this.listAgendados);
+            this.pnlView.Controls.Add(this.listDisponiveis);
             this.pnlView.Controls.Add(this.lblSubAgendar);
             this.pnlView.Controls.Add(this.btnAdd);
             this.pnlView.Controls.Add(this.lblAgendados);
@@ -194,7 +197,7 @@ namespace Batchup.Presentation.Views
             this.listDisponiveis.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listDisponiveis.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
             this.listDisponiveis.HideSelection = false;
-            this.listDisponiveis.Location = new System.Drawing.Point(17, 31);
+            this.listDisponiveis.Location = new System.Drawing.Point(17, 33);
             this.listDisponiveis.MultiSelect = false;
             this.listDisponiveis.Name = "listDisponiveis";
             this.listDisponiveis.ShowGroups = false;
@@ -208,15 +211,6 @@ namespace Batchup.Presentation.Views
             // 
             this.icons.Text = "";
             this.icons.Width = 300;
-            // 
-            // listAgendados
-            // 
-            this.listAgendados.FormattingEnabled = true;
-            this.listAgendados.ItemHeight = 16;
-            this.listAgendados.Location = new System.Drawing.Point(17, 284);
-            this.listAgendados.Name = "listAgendados";
-            this.listAgendados.Size = new System.Drawing.Size(489, 116);
-            this.listAgendados.TabIndex = 9;
             // 
             // lblSubAgendar
             // 
@@ -239,7 +233,6 @@ namespace Batchup.Presentation.Views
             this.btnAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAdd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(163)))), ((int)(((byte)(255)))));
             this.btnAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAdd.Enabled = false;
             this.btnAdd.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(78)))), ((int)(((byte)(216)))));
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.btnAdd.ForeColor = System.Drawing.Color.White;
@@ -307,6 +300,7 @@ namespace Batchup.Presentation.Views
             // 
             // pnlTitle
             // 
+            this.pnlTitle.Controls.Add(this.guna2PictureBox1);
             this.pnlTitle.Controls.Add(this.picTitle);
             this.pnlTitle.Controls.Add(this.lblTitle);
             this.pnlTitle.Controls.Add(this.lblSubTitle);
@@ -314,20 +308,6 @@ namespace Batchup.Presentation.Views
             this.pnlTitle.Name = "pnlTitle";
             this.pnlTitle.Size = new System.Drawing.Size(528, 70);
             this.pnlTitle.TabIndex = 8;
-            // 
-            // picTitle
-            // 
-            this.picTitle.BackColor = System.Drawing.Color.Transparent;
-            this.picTitle.FillColor = System.Drawing.Color.Transparent;
-            this.picTitle.Image = global::Batchup.Properties.Resources.calendario;
-            this.picTitle.ImageRotate = 0F;
-            this.picTitle.Location = new System.Drawing.Point(3, 3);
-            this.picTitle.Name = "picTitle";
-            this.picTitle.Size = new System.Drawing.Size(64, 64);
-            this.picTitle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picTitle.TabIndex = 2;
-            this.picTitle.TabStop = false;
-            this.picTitle.UseTransparentBackground = true;
             // 
             // lblTitle
             // 
@@ -361,6 +341,59 @@ namespace Batchup.Presentation.Views
             // 
             this.elipseGrid2.BorderRadius = 8;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(232, 3);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 3;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // picTitle
+            // 
+            this.picTitle.BackColor = System.Drawing.Color.Transparent;
+            this.picTitle.FillColor = System.Drawing.Color.Transparent;
+            this.picTitle.Image = global::Batchup.Properties.Resources.calendario;
+            this.picTitle.ImageRotate = 0F;
+            this.picTitle.Location = new System.Drawing.Point(3, 3);
+            this.picTitle.Name = "picTitle";
+            this.picTitle.Size = new System.Drawing.Size(64, 64);
+            this.picTitle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picTitle.TabIndex = 2;
+            this.picTitle.TabStop = false;
+            this.picTitle.UseTransparentBackground = true;
+            // 
+            // listAgendados
+            // 
+            this.listAgendados.Activation = System.Windows.Forms.ItemActivation.OneClick;
+            this.listAgendados.Alignment = System.Windows.Forms.ListViewAlignment.Left;
+            this.listAgendados.AutoArrange = false;
+            this.listAgendados.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listAgendados.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1});
+            this.listAgendados.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listAgendados.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.listAgendados.HideSelection = false;
+            this.listAgendados.Location = new System.Drawing.Point(17, 288);
+            this.listAgendados.MultiSelect = false;
+            this.listAgendados.Name = "listAgendados";
+            this.listAgendados.ShowGroups = false;
+            this.listAgendados.Size = new System.Drawing.Size(489, 112);
+            this.listAgendados.Sorting = System.Windows.Forms.SortOrder.Ascending;
+            this.listAgendados.TabIndex = 11;
+            this.listAgendados.UseCompatibleStateImageBehavior = false;
+            this.listAgendados.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "";
+            this.columnHeader1.Width = 300;
+            // 
             // FrmAgendar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -385,6 +418,7 @@ namespace Batchup.Presentation.Views
             this.pnlView.PerformLayout();
             this.pnlTitle.ResumeLayout(false);
             this.pnlTitle.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTitle)).EndInit();
             this.ResumeLayout(false);
 
@@ -408,7 +442,6 @@ namespace Batchup.Presentation.Views
         private System.Windows.Forms.Label lblAgendados;
         private Guna.UI2.WinForms.Guna2Button btnAdd;
         private System.Windows.Forms.Panel pnlTitle;
-        private Guna.UI2.WinForms.Guna2PictureBox picTitle;
         private System.Windows.Forms.Label lblSubTitle;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblSubAgendar;
@@ -416,10 +449,13 @@ namespace Batchup.Presentation.Views
         private Guna.UI2.WinForms.Guna2Elipse elipseGrid2;
         private Guna.UI2.WinForms.Guna2Button btnVoltar;
         private Guna.UI2.WinForms.Guna2Button btnAvancar;
-        private System.Windows.Forms.ListBox listAgendados;
         private System.Windows.Forms.ListView listDisponiveis;
         private System.Windows.Forms.ColumnHeader colImagem;
         private System.Windows.Forms.ColumnHeader colArquivo;
         private System.Windows.Forms.ColumnHeader icons;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2PictureBox picTitle;
+        private System.Windows.Forms.ListView listAgendados;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
     }
 }

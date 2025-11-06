@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Batchup.Core.Models;
 
 namespace Batchup.Core.Services
@@ -10,19 +11,33 @@ namespace Batchup.Core.Services
         {
             var arquivos = new List<ArquivoInfoModel>();
 
-            if (!Directory.Exists(diretorio))
-                return arquivos;
-
-            var arquivosEncontrados = Directory.GetFiles(diretorio, "*.bat");
-
-            foreach (var arquivo in arquivosEncontrados)
+            try
             {
-                arquivos.Add(new ArquivoInfoModel
+                if (!Directory.Exists(diretorio))
                 {
-                    Nome = Path.GetFileNameWithoutExtension(arquivo),
-                    CaminhoCompleto = arquivo,
-                    Extensao = ".bat"
-                });
+                    // Cria o diretório se não existir
+                    Directory.CreateDirectory(diretorio);
+                    return arquivos;
+                }
+
+                var arquivosEncontrados = Directory.GetFiles(diretorio, "*.bat");
+
+                foreach (var arquivo in arquivosEncontrados)
+                {
+                    var nomeArquivo = Path.GetFileNameWithoutExtension(arquivo);
+
+                    //arquivos.Add(new ArquivoInfoModel
+                    //{
+                    //    Nome = nomeArquivo,
+                    //    CaminhoCompleto = arquivo,
+                    //    Extensao = ".bat",
+                    //    JaAgendado = false
+                    //});
+                }
+            }
+            catch (System.Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Erro ao carregar arquivos: {ex.Message}");
             }
 
             return arquivos;

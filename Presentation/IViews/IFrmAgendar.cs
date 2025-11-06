@@ -5,8 +5,9 @@ namespace Batchup.Presentation.IViews
 {
     public interface IFrmAgendar
     {
-        void LimparLista();
-        void AddArqLista(List<ArquivoInfoModel> arquivos);
+        void SetDisponiveis(List<ArquivoInfoModel> arquivos);
+        void SetAgendados(List<TarefaAgendadaModel> tarefas);
+        void SetAddEnabled(bool enabled);
         void ShowMessage(string message);
     }
 }
